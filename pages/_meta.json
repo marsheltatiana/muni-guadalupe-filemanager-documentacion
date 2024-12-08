@@ -1,9 +1,9 @@
 {
   "index": "Introducción",
-  "start": "Getting started",
-  "integration": "Integration",
+  "start": "Tecnologías Utilizadas",
+  "integration": "Módulos del Sistema",
   "status": {
-    "title": "Estado del sistema",
+    "title": "AYUDA EN LÍNEA",
     "type": "page",
     "href": "https://status.myshoefitter.com",
     "newWindow": true
@@ -11,7 +11,8 @@
   "contact": {
     "title": "Soporte ↗",
     "type": "page",
-    "href": "https://www.myshoefitter.com/kontakt",
+    "href": "https://munifilemanager.vercel.app/",
     "newWindow": true
   }
+  
 }

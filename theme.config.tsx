@@ -4,14 +4,14 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <img src="https://munifilemanager.vercel.app/_next/image?url=%2Fmuni-guadalupe-logo.png&w=256&q=75" width="95px" />,
   project: {
-    link: 'https://github.com/myshoefitter/',
+    link: 'https://munifilemanager.vercel.app/',
   },
   // chat: {
   //   link: 'https://discord.com',
   // },
-  docsRepositoryBase: 'https://github.com/myshoefitter/',
+  docsRepositoryBase: 'https://munifilemanager.vercel.app/',
   footer: {
-    text: '© mySHOEFITTER GmbH',
+    text: '© Municipalidad Distrital de Guadalupe',
   },
   nextThemes: {
     defaultTheme: 'light'

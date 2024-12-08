@@ -1,0 +1,74 @@
+# Manual de Instalación: Administrador de Archivos para la Municipalidad Distrital de Guadalupe
+
+### **Descripción del Proyecto**  
+El **Administrador de Archivos** es una aplicación web creada con **Next.js** que permite gestionar documentos de manera eficiente. Ofrece funciones como carga, descarga, eliminación, generación de informes, y gestión de usuarios, diseñada específicamente para las necesidades de la Municipalidad Distrital de Guadalupe.  
+
+---
+
+### **Características Principales**  
+- **Gestión de Archivos**: Carga, descarga, y eliminación.  
+- **Búsqueda Avanzada**: Filtrado por nombre, tipo, o fecha.  
+- **Informes Detallados**: Reportes de actividad del sistema.  
+- **Seguridad**: Autenticación de usuarios.  
+- **Gestión de Usuarios**: Roles y permisos.  
+- **Multiplataforma**: Compatible con dispositivos móviles y de escritorio.  
+
+---
+
+### **Requisitos Previos**  
+1. Tener **Node.js** y **npm** instalados.  
+2. Base de datos **PostgreSQL** configurada.  
+3. Credenciales para **Google OAuth2 API** (obtenidas desde Google Cloud Console).  
+
+---
+
+### **Pasos de Instalación**  
+
+#### 1. **Clonar el Repositorio** 
+
+```html filename="Código" {3} copy
+<git clone https://github.com/marsheltatiana/muni-guadalupe-filemanager>
+```
+
+#### 2. **Instalar Dependencias**  
+
+```html filename="Depedencias" {3} copy
+cd muni-guadalupe-filemanager  
+npm install  
+```
+
+#### 3. **Configuración del Entorno**  
+1. Crear un archivo `.env.local` basado en el ejemplo:  
+   ```html filename="Entorno" {3} copy
+   cp .env.example .env.local  
+   ```  
+2. Configurar las siguientes variables en `.env.local`:  
+   ```html filename="env" {3} copy 
+   AUTH_GOOGLE_ID=<tu_id>  
+   AUTH_GOOGLE_SECRET=<tu_secreto>  
+   DATABASE_URL=<url_de_postgresql>  
+   NEXTAUTH_SECRET=<clave_secreta_para_autenticación>  
+   ```  
+
+#### 4. **Ejecutar el Servidor Local**  
+Iniciar el servidor en modo desarrollo:  
+```html filename="Servidor" {3} copy
+npm run dev  
+```  
+Acceder a la aplicación desde tu navegador:  
+[http://localhost:3000](http://localhost:3000)  
+
+---
+
+### **Componentes Principales**  
+- **Gestión de Archivos**: Subida, descarga y eliminación de documentos.  
+- **Autenticación de Usuarios**: Inicio de sesión con Google OAuth2.  
+- **Generación de Informes**: Análisis de uso del sistema.  
+- **Gestión de Roles**: Permisos y administración de usuarios.  
+
+---
+
+### **Despliegue en Producción**  
+Para el despliegue en producción, se recomienda usar plataformas como **Vercel** o **Docker**. Configurar el entorno de producción con las mismas variables del archivo `.env.local`.  
+
+¿Deseas incluir una sección específica sobre solución de problemas o personalización del sistema?

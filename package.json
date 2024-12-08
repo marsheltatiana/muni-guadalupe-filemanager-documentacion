@@ -23,6 +23,7 @@
     "nextra-theme-docs": "2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
     "sass": "^1.63.6"
   },
   "devDependencies": {
