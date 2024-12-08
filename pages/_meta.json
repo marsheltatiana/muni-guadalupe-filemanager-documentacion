@@ -1,0 +1,17 @@
+{
+  "index": "Introducción",
+  "start": "Getting started",
+  "integration": "Integration",
+  "status": {
+    "title": "Estado del sistema",
+    "type": "page",
+    "href": "https://status.myshoefitter.com",
+    "newWindow": true
+  },
+  "contact": {
+    "title": "Soporte ↗",
+    "type": "page",
+    "href": "https://www.myshoefitter.com/kontakt",
+    "newWindow": true
+  }
+}

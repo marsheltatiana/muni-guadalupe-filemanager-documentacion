@@ -1,0 +1,49 @@
+.platforms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0 0 0;
+
+  .platform {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1.5px solid #efefef;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+
+    width: 160px;
+    height: 130px;
+
+    .logo-container {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    p {
+      display: block;
+      margin: 0 0 10px 0;
+      color: black;
+      font-weight: 500;
+    }
+  }
+}
+
+.banner-image {
+  display: block;
+
+  @media (min-width: 768px) {
+    margin-top: -40px;
+  }
+}
+
+a[href="https://status.myshoefitter.com"] {
+  background-image: url('/images/status.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 26px;
+}
