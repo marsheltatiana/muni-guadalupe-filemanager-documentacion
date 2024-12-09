@@ -2,14 +2,8 @@
   "index": "Introducción",
   "start": "Tecnologías Utilizadas",
   "integration": "Módulos del Sistema",
-  "status": {
-    "title": "AYUDA EN LÍNEA",
-    "type": "page",
-    "href": "https://status.myshoefitter.com",
-    "newWindow": true
-  },
   "contact": {
-    "title": "Sistema web ↗",
+    "title": "Sistema ↗",
     "type": "page",
     "href": "https://munifilemanager.vercel.app/",
     "newWindow": true
