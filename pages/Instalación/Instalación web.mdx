@@ -1,0 +1,102 @@
+# **📖 Manual de Instalación - Sistema Web Municipalidad Distrital de Guadalupe**  
+
+---
+
+## **📄 Descripción del Proyecto**  
+El **Administrador de Archivos** es una aplicación web innovadora desarrollada con **Next.js**, diseñada para gestionar documentos de forma eficiente.  
+**Funciones destacadas:**  
+- 📂 **Gestión de documentos**: carga, descarga y eliminación.  
+- 📊 **Informes detallados**: actividad del sistema.  
+- 👥 **Gestión de usuarios**: roles y permisos.  
+**Multiplataforma y adaptable**, ideal para dispositivos móviles y escritorio.  
+
+---
+
+## **🌟 Características Principales**  
+### ✅ **Gestión de Archivos**  
+Sube, descarga o elimina documentos de manera eficiente.  
+### 🔍 **Búsqueda Avanzada**  
+Filtra archivos por nombre, tipo o fecha.  
+### 📈 **Informes Detallados**  
+Genera reportes que analizan el uso del sistema.  
+### 🔒 **Seguridad**  
+Asegura la autenticación de usuarios y protege la información.  
+### 👤 **Gestión de Usuarios**  
+Define roles y permisos personalizados según el área.  
+
+---
+
+## **⚙️ Requisitos Previos**  
+### 🛠️ **Tecnologías Necesarias**  
+1. **Node.js** y **npm** instalados en el sistema.  
+2. Configuración de base de datos **PostgreSQL**.  
+3. Credenciales de **Google OAuth2 API** desde **Google Cloud Console**.  
+
+---
+
+## **📥 Pasos de Instalación**  
+
+### **1. Clonar el Repositorio**  
+Copia el código fuente desde GitHub:  
+```bash
+git clone https://github.com/marsheltatiana/muni-guadalupe-filemanager
+```
+
+### **2. Instalar Dependencias**  
+Accede al proyecto e instala las dependencias necesarias:  
+```bash
+cd muni-guadalupe-filemanager
+npm install
+```
+
+### **3. Configurar el Entorno**  
+1. Crea un archivo `.env.local` basado en el archivo de ejemplo:  
+   ```bash
+   cp .env.example .env.local
+   ```  
+2. Configura las siguientes variables en `.env.local`:  
+   ```
+   AUTH_GOOGLE_ID=<tu_id>
+   AUTH_GOOGLE_SECRET=<tu_secreto>
+   DATABASE_URL=<url_de_postgresql>
+   NEXTAUTH_SECRET=<clave_secreta_para_autenticación>
+   ```
+
+### **4. Ejecutar el Servidor Local**  
+Levanta el servidor en modo desarrollo:  
+```bash
+npm run dev
+```
+Accede desde tu navegador en:  
+🔗 [http://localhost:3000](http://localhost:3000)  
+
+---
+
+## **🔧 Componentes Principales**  
+### 📁 **Gestión de Archivos**  
+Sube, descarga y organiza documentos esenciales.  
+### 🔑 **Autenticación de Usuarios**  
+Inicia sesión con **Google OAuth2** para mayor seguridad.  
+### 📊 **Generación de Informes**  
+Obtén análisis detallados del sistema.  
+### 👥 **Gestión de Roles**  
+Administra permisos según las necesidades de cada área.  
+
+---
+
+## **🚀 Despliegue en Producción**  
+### **Recomendaciones**  
+1. Utiliza plataformas como **Vercel** o **Docker** para el despliegue.  
+2. Asegúrate de configurar las mismas variables de entorno que en `.env.local`.  
+
+---  
+
+<div align="center">
+  <img src="https://via.placeholder.com/600x200.png?text=Municipalidad+Distrital+de+Guadalupe" alt="Logo Municipalidad Guadalupe" width="600px" />
+  <h3>📂 ¡Transforma la gestión documental con nuestra plataforma! 📂</h3>
+</div>  
+
+---  
+
+**📞 Soporte Técnico**  
+Si tienes dudas o problemas, contacta al equipo técnico de la municipalidad.  
