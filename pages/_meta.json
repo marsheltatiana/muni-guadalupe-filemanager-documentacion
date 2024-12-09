@@ -2,6 +2,11 @@
   "index": "Introducción",
   "start": "Tecnologías Utilizadas",
   "integration": "Módulos del Sistema",
+    "title": "AYUDA EN LÍNEA",
+    "type": "page",
+    "href": "https://status.myshoefitter.com",
+    "newWindow": true
+  },
   "contact": {
     "title": "Sistema ↗",
     "type": "page",
