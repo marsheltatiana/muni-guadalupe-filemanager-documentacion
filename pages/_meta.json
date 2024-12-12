@@ -2,7 +2,9 @@
   "index": "Introducción",
   "start": "Tecnologías Utilizadas",
   "instalacion": "Instalación",
-  "mantenedores": "Módulos del Sistema",
+  "modulos": {
+    "mantenedores": "Mantenedores" 
+  },
   "status": {
     "title": "AYUDA EN LÍNEA",
     "type": "page",
